@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="ToDo.html">
+    <title>To Do App </title>
+    <style>
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 40px;
+            margin-left: 30%;
+            margin-top: 1%;
+            width: 40%;
+            height: 2%;
+
+        }
+
+        .inputfields {
+            width: 100%;
+            padding: 10px 10px;
+            border: 1px solid black;
+            border-radius: 4px;
+            margin: 8px 0;
+            display: inline-block;
+
+        }
+
+        form {
+
+            /* float: right; */
+            height: 350px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding-top: 30px;
+        }
+
+        button {
+            background: green;
+            color: white;
+        }
+
+        body {
+            background-image: url("/Case Study/Image/ToDoimage.jpg");
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: blanchedalmond;
+            margin-top: 55px;
+            text-shadow: 1px 1px  black ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1> To Do List App</h1>
+    <div class="form">
+        <h3>LOG IN</h3>
+        <form name="loginform" onsubmit="checkingcred()">
+
+            <label><b>User Name</b></label>
+            <br>
+            <input type="text" class="inputfields" id="username" placeholder="Enter User Name" required>
+            <br>
+            <label><b>Password</b></label>
+            <br>
+            <input type="password" class="inputfields" id="password" placeholder="Password" required>
+            <br>
+
+            <button type="submit" class="inputfields">Submit</button>
+            <br>
+            <h6>Need and account?</h6>
+            <a href="#">Sign Up</a>
+        </form>
+    </div>
+
+    <script src="callback.js">
+    </script>
+</body>
+
+</html>
