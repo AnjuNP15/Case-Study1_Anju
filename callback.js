@@ -51,7 +51,7 @@ function validatelogin(){
     }
     }
 
-    // Function logout will clear out session variabl when user clicks on Logout in Nav Bar
+    // Function logout will clear out session variable when user clicks on Logout in Nav Bar
     function logout(){
         sessionStorage.clear();
         window.location.href = "index.html";
