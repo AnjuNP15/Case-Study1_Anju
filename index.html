@@ -18,7 +18,7 @@
             margin-top: 1%;
             width: 40%;
             height: 2%;
-
+            
         }
 
         .inputfields {
@@ -39,6 +39,7 @@
             border-radius: 5px;
             background-color: #f2f2f2;
             padding-top: 30px;
+            
         }
 
         button {
@@ -48,7 +49,7 @@
         }
 
         body {
-            background-image: url("/Case-Study1_Anju/Image/ToDoimage.jpg");
+            background-image: url("Image/ToDoimage.jpg");
         }
 
         h3 {
@@ -67,9 +68,10 @@
 <body>
 
     <h1> To Do List App</h1>
-    <div class="form">
+    <div class="form" >
         <h3>LOG IN</h3>
-        <form name="loginform" onsubmit="checkingcred()">
+        <!-- Login Form -->
+        <form name="loginform" onsubmit="return checkingcred()">
 
             <label><b>User Name</b></label>
             <br>
@@ -85,6 +87,7 @@
             <h6>Need and account?</h6>
             <a href="#">Sign Up</a>
         </form>
+        <!-- End of Login Form -->
     </div>
 
     <script src="callback.js">
